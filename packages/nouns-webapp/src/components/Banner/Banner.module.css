@@ -1,3 +1,8 @@
+.bannerSection {
+  background-color: var(--bs-body-color, #212529);
+  color: var(--bs-light, #fff);
+}
+
 .wrapper h1 {
   font-family: 'Londrina Solid';
   font-size: 5rem;
