@@ -1,3 +1,8 @@
+.documentationSection {
+  background-color: var(--bs-body-color, #212529);
+  color: var(--bs-light, #fff);
+}
+
 .headerWrapper h1 {
   font-family: 'Londrina Solid';
   font-size: 4rem;
@@ -17,6 +22,8 @@
   letter-spacing: -0.25px;
   line-height: 28px;
   font-size: 1.2rem !important;
+  background-color: var(--bs-body-color, #212529);
+  color: var(--bs-light, #fff);
 }
 
 @media (max-width: 992px) {
@@ -55,7 +62,7 @@
 }
 
 .accordionHeader button:not(.collapsed) {
-  color: #212529;
+  color: var(--bs-light, #fff);
   background-color: transparent;
   box-shadow: none !important;
 }

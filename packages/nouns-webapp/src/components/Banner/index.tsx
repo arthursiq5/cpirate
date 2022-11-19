@@ -10,7 +10,7 @@ const Banner = () => {
     <Section fullWidth={false} className={classes.bannerSection}>
       <Col lg={6}>
         <div className={classes.wrapper}>
-          <h1>
+          <h1 className='teste'>
             <Trans>ONE NOUN,</Trans>
             <br />
             <Trans>EVERY DAY,</Trans>
